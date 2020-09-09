@@ -5,6 +5,7 @@ use winapi::um::winuser::{VK_LCONTROL, VK_LMENU, VK_LSHIFT};
 #[allow(dead_code)]
 pub enum Key {
     Enter = 0x0D,
+    Space = 0x20,
     Plus = 0xBB,
     Minus = 0xBD,
     A = 0x41,
@@ -63,4 +64,6 @@ pub enum Key {
     Eight = 0x38,
     #[strum(serialize = "9")]
     Nine = 0x39,
+    #[strum(serialize = ";")]
+    Semicolon = 0xBA,
 }

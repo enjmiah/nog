@@ -66,6 +66,8 @@ And the key can be one of the following:
 * Enter
 * Plus / Minus
 * Left / Up / Right / Down
+* Space
+* `;` (semicolon)
 
 ## Types
 
